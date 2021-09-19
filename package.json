@@ -1,5 +1,9 @@
 {
   "name": "letmeask",
+  "author": {
+    "name": "Otávio Bumaruf",
+    "url": "https://github.com/bumaruf"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {

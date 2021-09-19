@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+<!-- <h1 align="center">Project name</h1> -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="letmeask logo" title="letmeask" src=".github/logo.svg" />
+</p>
 
-## Available Scripts
+<!-- Tags -->
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="Next Level Week" src="https://img.shields.io/static/v1?label=NLW&message=06&color=835AFD&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=835AFD&labelColor=000000">
+</p>
 
-### `yarn start`
+<!-- Menu -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- Banner -->
 
-### `yarn test`
+<h1 align="center">
+  <img alt="example-layout" src=".github/cover.svg" width="100%">
+</h1>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- Body -->
 
-### `yarn build`
+## ✨ Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 💻 Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🔖 Layout
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Você pode visualizar o layout do projeto através do link abaixo:
 
-## Learn More
+- [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lembrando que você precisa ter uma conta no Figma.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
+
+```bash
+$ git clone https://github.com/bumaruf/nlw-06-reactjs
+$ cd nlw-06-reactjs
+```
+
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn
+
+# Iniciar o projeto
+$ yarn start
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
+
+Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
+
+### ⚙️ Configuração
+
+Não se esqueça de configurar o arquivo de variáveis ambiente para que o projeto funcione corretamente.
+
+Duplique o arquivo `.env.example` alterando o nome para `.env` e depois preencha as variáveis necessárias.
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Leia o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<!-- Footer -->
+Desenvolvido por [Otávio Bumaruf](https://github.com/bumaruf).
